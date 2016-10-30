@@ -1,0 +1,39 @@
+body { 
+    	background-image: url("Images/newVietnamImage.png");
+   	background-repeat: no-repeat;
+    	background-attachment: fixed;
+	font-family: 'Oswald', sans-serif;
+}
+hr {
+	border-width: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+h1 {
+	font-size: 100pt;
+	color: white;
+}
+h2 {
+	font-size: 40pt;
+	color: white;
+}
+h3 {
+	font-size: 20pt;
+	color: white;
+			}
+.pdfobject-container {
+	width: 100%;
+	max-width: 1000px;
+	height: 1000px;
+	margin: 2em 0;
+}
+p {
+	color: white;
+}
+a {
+	color: white;
+	font-size: 20pt;
+}
+td {
+	padding: 15px;
+}
