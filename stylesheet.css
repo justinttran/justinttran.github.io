@@ -1,5 +1,5 @@
 body { 
-    	background-image: url("Images/Rivendell.jpg");
+        background-color: #d3d3d3;
    	background-repeat: no-repeat;
     	background-attachment: fixed;
 	font-family: 'Oswald', sans-serif;
@@ -8,18 +8,19 @@ hr {
 	border-width: 5px;
 	margin-left: 100px;
 	margin-right: 100px;
+        color: black;
 }
 h1 {
 	font-size: 100pt;
-	color: white;
+	color: black;
 }
 h2 {
 	font-size: 40pt;
-	color: white;
+	color: black;
 }
 h3 {
 	font-size: 20pt;
-	color: white;
+	color: black;
 			}
 .pdfobject-container {
 	width: 100%;
@@ -28,10 +29,10 @@ h3 {
 	margin: 2em 0;
 }
 p {
-	color: white;
+	color: black;
 }
 a {
-	color: white;
+	color: black;
 	font-size: 20pt;
 }
 td {

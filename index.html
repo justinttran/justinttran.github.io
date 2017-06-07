@@ -11,6 +11,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		 <link rel="stylesheet" href="TemplateData/style.css">
+	    <script src="TemplateData/UnityProgress.js"></script>  
+	    <script src="Build/UnityLoader.js"></script>
+	    <script>
+	      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebApp.json", {onProgress: UnityProgress});
+	    </script>
+
 	</head>
 	
 	<body>
@@ -24,21 +34,20 @@
 				<div class="col-sm-4"></div>
 
 				<div class="col-sm-4">
-				<hr>
+				
 
 				</div>
 
 				<div class="col-sm-4"></div>
 			</div>
 			<!---ABOUT ME-->
-			<h3>I am a student studying Computer Science at Cornell University.
-			<br>I transferred from Rutgers University in Fall 2016.</h3>
+			<h3>I am currently studying Computer Science at Cornell University.</h3>
 			<!---DIVIDER-->
 			<div class="row">
 				<div class="col-sm-4"></div>
 
 				<div class="col-sm-4">
-				<hr>
+				
 
 				</div>
 
@@ -47,7 +56,6 @@
 
 			<!---RESUME-->
 			<h2>Resume</h2>
-			<p>Thanks to Philip Hutchinson for PDFObject utility!
 			<div id="pdf" class="pdfobject-container">
 				<embed class="pdfobject" src="JustinTran_Resume.pdf" style="overflow: auto; width: 100%; height: 100%;" internalinsanceid="6">
 			</div>
@@ -55,8 +63,17 @@
 			<h3>If your browser doesn't support this plugin, 
 			you can download my resume
 			<a href = "JustinTran_Resume.pdf">
-			>>here<<</a>
+			>here<</a>
 			</h3>
+
+			<div class="webgl-content">
+		    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+		    <div class="footer">
+		        <div class="webgl-logo"></div>
+		        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+		        <div class="title">Playground</div>
+		    </div>
+		    </div>
 			
 			
 			<!---DIVIDER-->
@@ -64,28 +81,13 @@
 				<div class="col-sm-4"></div>
 
 				<div class="col-sm-4">
-				<hr>
+				
 
 				</div>
 
 				<div class="col-sm-4"></div>
 			</div>
 			
-			<!---ART-->
-<!-- 			<h2>Art</h2>
-			<h3>Character designs from "Hamilton"</h3>
-			<div class="row">
-				<div class="col-md-4">
-					<img src="Images/Hamilton.png" style="width:400px"></a>
-				</div>	
-				<div class="col-md-4">
-					<img src="Images/Burr.png" style="width:400px"></a>
-				</div>	
-				<div class="col-md-4">
-					<img src="Images/Eliza.png" style="width:400px"></a>
-				</div>	
-			</div>
-			 -->
 			<br><br><br>
 			<h2>Paintings and drawings</h2>
 			<table>
@@ -110,7 +112,7 @@
 				<div class="col-sm-4"></div>
 
 				<div class="col-sm-4">
-				<hr>
+				
 
 				</div>
 
