@@ -1,9 +1,14 @@
 body { 
 	/* page not updating */
-        background-color: #d3d3d3;
+        background-color: #FFFFFF;
    	background-repeat: no-repeat;
     	background-attachment: fixed;
 	font-family: 'Oswald', sans-serif;
+}
+.img-ID {
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
 }
 hr {
 	border-width: 5px;
@@ -22,13 +27,8 @@ h2 {
 h3 {
 	font-size: 20pt;
 	color: black;
-			}
-.pdfobject-container {
-	width: 100%;
-	max-width: 1000px;
-	height: 1000px;
-	margin: 2em 0;
 }
+
 p {
 	color: black;
 }
