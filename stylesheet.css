@@ -1,7 +1,7 @@
 body {
 	background-color: #f2f2f2;
   color: #444444;
-	font-family: 'Oswald', sans-serif;
+	/* font-family: 'Oswald', sans-serif; */
 }
 .img-ID {
 	border-radius: 50%;
@@ -9,30 +9,14 @@ body {
 	height: auto;
 }
 hr {
-	border-width: 5px;
+	/* border-width: 5px;
 	margin-left: 100px;
-	margin-right: 100px;
-        color: black;
-}
-h1 {
-	font-size: 100pt;
-	color: black;
-}
-h2 {
-	font-size: 40pt;
-	color: black;
-}
-h3 {
-	font-size: 20pt;
-	color: black;
+	margin-right: 100px; */
+  color: black;
 }
 
 p {
 	color: black;
-}
-a {
-	color: black;
-	font-size: 20pt;
 }
 td {
 	padding: 15px;
