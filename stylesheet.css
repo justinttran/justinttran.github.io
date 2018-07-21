@@ -1,7 +1,6 @@
 body {
 	background-color: #f2f2f2;
   color: #444444;
-	/* font-family: 'Oswald', sans-serif; */
 }
 .img-ID {
 	border-radius: 50%;
@@ -9,9 +8,6 @@ body {
 	height: auto;
 }
 hr {
-	/* border-width: 5px;
-	margin-left: 100px;
-	margin-right: 100px; */
   color: black;
 }
 
