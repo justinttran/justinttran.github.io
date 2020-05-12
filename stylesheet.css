@@ -4,8 +4,13 @@ body {
 }
 .img-ID {
 	border-radius: 50%;
-	width: 200px;
-	height: auto;
+	width: 220px;
+	height: 200px;
+}
+.headshot {
+  border-radius: 50%;
+  width: 240px;
+  height: 200px;
 }
 hr {
   color: black;
@@ -16,4 +21,8 @@ p {
 }
 td {
 	padding: 15px;
+}
+
+.nav-link {
+  font-size: 20px;
 }
