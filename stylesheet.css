@@ -2,27 +2,32 @@ body {
 	background-color: #f2f2f2;
   color: #444444;
 }
-.img-ID {
-	border-radius: 50%;
-	width: 220px;
-	height: 200px;
+
+.main-body {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
 }
-.headshot {
-  border-radius: 50%;
-  width: 240px;
-  height: 200px;
+
+.main-header {
+	text-align: left;
+	margin-bottom: 30px;
+	font-weight: bold;
 }
+
+.resume-link {
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.painting-table {
+	overflow:
+}
+
 hr {
-  color: black;
-}
-
-p {
-	color: black;
-}
-td {
-	padding: 15px;
-}
-
-.nav-link {
-  font-size: 20px;
+	height: 1px;
+	background-color: #B4B4B4;
 }
